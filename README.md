@@ -5,7 +5,7 @@ run:
 `npm install serve --s`
 ---
 change scripts in package.json file:<br>
-`
+```json
  "scripts": {
  "dev": "react-scripts start",
  "start": "serve -s build",
@@ -14,5 +14,5 @@ change scripts in package.json file:<br>
  "eject": "react-scripts eject",
  "heroku-postbuild": "npm run build"
 }
-`
+```
 ---
